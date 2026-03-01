@@ -5,8 +5,9 @@ edition = "2024"
 
 [dependencies]
 anyhow = "1.0.97"
-reqwest = "0.12.15"
 scraper = "0.23.1"
 serca = { path = "./serca/" }
+serde = "1.0.228"
 tokio = { version = "1", features = ["full"] }
 url = "2.5.4"
+reqwest = { version = "0.12.15", features = ["json"] }
